@@ -51,13 +51,13 @@
 
   function displayAfterClick() {
     if (inputLength() > 0) {
-      display(userInput.value);
+      display(userInput.value.toLowerCase());
     }
   }
 
   function displayAfterEnter() {
     if (inputLength() > 0 && event.keyCode === 13) {
-      display(userInput.value);
+      display(userInput.value.toLowerCase());
     }
   }
 
